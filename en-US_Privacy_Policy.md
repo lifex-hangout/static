@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Bee's Knees (hereinafter referred to as "the Company") operates in compliance with relevant laws and regulations that information service providers must adhere to, such as the "Personal Information Protection Act" and the "Act on Promotion of Information and Communication Network Utilization and Information Protection." The Company aims to protect users' personal information, promptly address complaints and difficulties related to it, and operates the following privacy policy. The Company complies with the responsibilities and obligations stipulated in applicable laws and strives to protect users' rights and interests. The Company's privacy policy contains the following contents:
+Beesknees (hereinafter referred to as "the Company") operates in compliance with relevant laws and regulations that information service providers must adhere to, such as the "Personal Information Protection Act" and the "Act on Promotion of Information and Communication Network Utilization and Information Protection." The Company aims to protect users' personal information, promptly address complaints and difficulties related to it, and operates the following privacy policy. The Company complies with the responsibilities and obligations stipulated in applicable laws and strives to protect users' rights and interests. The Company's privacy policy contains the following contents:
 
 ### Article 1 (Personal Information Collected and Collection Methods)
 
@@ -179,7 +179,7 @@ The company designates a personal information protection manager responsible for
 **Personal Information Protection Manager:**
 
 - Name: Yoon-Seop Choe
-- Position: Chief
+- Position: Representative
 - Contact: roland.blain@gmail.com
 
 ### Article 11 (Privacy Policy for Personal Location Information)
@@ -240,7 +240,7 @@ Users can report all grievances related to the protection of personal location i
 
 - **Location Information Manager**
     - Name: Yoon-Seop Choe
-    - Position: Chief
+    - Position: Representative
     - Contact: roland.blain@gmail.com
 
 ### Article 12 (Obligation to Notify)

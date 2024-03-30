@@ -1,6 +1,6 @@
 # Personal Sensitive Information Collection and Use Agreement
 
-Bee's Knees(hereinafter referred to as "the Company"), operating Hangout (hereinafter referred to as "the Service"), complies with the responsibilities and obligations stipulated in the "Personal Information Protection Act" in managing the collected personal information. We would like to provide information on the collection and use of personal sensitive information and obtain your consent. You have the right to refuse consent; however, there may be limitations on the use of the service due to such refusal.
+Beesknees(hereinafter referred to as "the Company"), operating Hangout (hereinafter referred to as "the Service"), complies with the responsibilities and obligations stipulated in the "Personal Information Protection Act" in managing the collected personal information. We would like to provide information on the collection and use of personal sensitive information and obtain your consent. You have the right to refuse consent; however, there may be limitations on the use of the service due to such refusal.
 
 ## Collection and Use of Sensitive Information
 

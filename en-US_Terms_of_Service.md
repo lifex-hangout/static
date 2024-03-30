@@ -4,7 +4,7 @@
 
 ### Article 1 (Purpose of these Terms)
 
-These Terms of Service ("the Terms") aim to establish the rights, obligations, responsibilities, and other necessary matters between Bee's Knees ("the Company") and its members regarding the use of the Hangout service and related services ("the Service"). The Terms aim to reasonably regulate the mutual relationship and ensure the smooth operation and maintenance of the Service system based on the understanding of the Company and its members.
+These Terms of Service ("the Terms") aim to establish the rights, obligations, responsibilities, and other necessary matters between Beesknees ("the Company") and its members regarding the use of the Hangout service and related services ("the Service"). The Terms aim to reasonably regulate the mutual relationship and ensure the smooth operation and maintenance of the Service system based on the understanding of the Company and its members.
 
 ### Article 2 (Definitions)
 
@@ -407,7 +407,7 @@ Even if any part of these terms is deemed invalid, the effectiveness of the rema
 
 ### Article 34 (Governing Law)
 
-Laws of Singapore shall apply to any lawsuits filed between the Company and members.
+Laws of the Republic of Korea shall apply to any lawsuits filed between the Company and members.
 
 **<Supplementary Provision>**
 

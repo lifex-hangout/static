@@ -4,7 +4,7 @@
 
 ### Article 1 (Purpose)
 
-These Terms of Use for Location-Based Services (hereinafter referred to as the "Terms") are established for the purpose of stipulating the basic contents of rights, obligations, and responsibilities of Bee's Knees (hereinafter referred to as the "Company") and users and individuals whose location information is subject to collection, in relation to the use of location-based services (hereinafter referred to as the "Service") provided through the service platform (hereinafter referred to as the "Platform"), including Hangout Web, Mobile Web, and apps.
+These Terms of Use for Location-Based Services (hereinafter referred to as the "Terms") are established for the purpose of stipulating the basic contents of rights, obligations, and responsibilities of Beesknees (hereinafter referred to as the "Company") and users and individuals whose location information is subject to collection, in relation to the use of location-based services (hereinafter referred to as the "Service") provided through the service platform (hereinafter referred to as the "Platform"), including Hangout Web, Mobile Web, and apps.
 
 ### Article 2 (Effectiveness and Amendment of the Terms)
 
@@ -220,7 +220,7 @@ To claim compensation for damages under Article 19, the user must submit a writt
 
 The Company's trade name, address, and other contact information are as follows:
 
-- Trade Name: Bee's Knees
+- Trade Name: Beesknees
 - Address: 20-9, Nambusunhwan-ro 240-gil, Gwanak-gu, Seoul, Republic of Korea
 - Email Address: roland.blain@gmail.com
 
@@ -235,5 +235,5 @@ These terms and conditions shall be effective and applicable from June 8, 2023, 
 The Company has designated a location information manager to make efforts to protect the rights of personal location information subjects, including handling complaints arising from the process of using the service.
 
 - Name: Yoon-Seop Choe
-- Position: Chief
+- Position: Representative
 - Contact: roland.blain@gmail.com

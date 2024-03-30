@@ -1,6 +1,6 @@
 # Personal Information Collection and Use Agreement
 
-Bee's Knees (the "Company"), which operates hangout (the "Service"), complies with the responsibilities and obligations stipulated by the Personal Information Protection Act in managing the personal information it collects. We would like to inform you about the collection and use of personal information and obtain your consent. You have the right to refuse consent, but you may be restricted from using the service due to refusal.
+Beesknees (the "Company"), which operates hangout (the "Service"), complies with the responsibilities and obligations stipulated by the Personal Information Protection Act in managing the personal information it collects. We would like to inform you about the collection and use of personal information and obtain your consent. You have the right to refuse consent, but you may be restricted from using the service due to refusal.
 
 ## Collection and Use of Personal Information
 
