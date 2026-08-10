@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Child Safety Standards</title>
+
+    <style>
+        :root {
+            color-scheme: light dark;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family:
+                    -apple-system,
+                    BlinkMacSystemFont,
+                    "Segoe UI",
+                    Roboto,
+                    "Noto Sans",
+                    "Noto Sans KR",
+                    "Noto Sans JP",
+                    Arial,
+                    sans-serif;
+            line-height: 1.7;
+            background: #f7f7f8;
+            color: #222;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 48px 24px 80px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            margin-bottom: 8px;
+            font-size: 32px;
+        }
+
+        .subtitle {
+            color: #666;
+            margin: 0;
+        }
+
+        .languages {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 28px 0 40px;
+        }
+
+        .language-button {
+            border: 1px solid #ccc;
+            background: white;
+            color: #333;
+            border-radius: 8px;
+            padding: 8px 14px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .language-button.active {
+            background: #222;
+            color: white;
+            border-color: #222;
+        }
+
+        .content {
+            background: white;
+            border-radius: 14px;
+            padding: 36px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+        }
+
+        section {
+            margin-bottom: 32px;
+        }
+
+        section:last-child {
+            margin-bottom: 0;
+        }
+
+        h2 {
+            font-size: 21px;
+            margin: 0 0 12px;
+        }
+
+        p {
+            margin: 0 0 12px;
+        }
+
+        ul {
+            margin-top: 8px;
+            padding-left: 24px;
+        }
+
+        .contact {
+            background: #f5f5f5;
+            border-radius: 10px;
+            padding: 18px 20px;
+        }
+
+        a {
+            color: inherit;
+            font-weight: 600;
+        }
+
+        footer {
+            text-align: center;
+            color: #777;
+            font-size: 13px;
+            margin-top: 28px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 32px 16px 60px;
+            }
+
+            .content {
+                padding: 24px 20px;
+            }
+
+            h1 {
+                font-size: 27px;
+            }
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: #111;
+                color: #eee;
+            }
+
+            .subtitle,
+            footer {
+                color: #aaa;
+            }
+
+            .content {
+                background: #1c1c1e;
+                box-shadow: none;
+            }
+
+            .language-button {
+                background: #1c1c1e;
+                color: #eee;
+                border-color: #444;
+            }
+
+            .language-button.active {
+                background: #eee;
+                color: #111;
+                border-color: #eee;
+            }
+
+            .contact {
+                background: #292929;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <h1 id="page-title">Child Safety Standards</h1>
+        <p class="subtitle" id="page-subtitle">
+            Our commitment to protecting children from sexual abuse and exploitation
+        </p>
+    </header>
+
+    <div class="languages">
+        <button class="language-button active" onclick="setLanguage('en')">English</button>
+        <button class="language-button" onclick="setLanguage('ko')">한국어</button>
+        <button class="language-button" onclick="setLanguage('ja')">日本語</button>
+        <button class="language-button" onclick="setLanguage('zh-CN')">简体中文</button>
+        <button class="language-button" onclick="setLanguage('zh-TW')">繁體中文</button>
+    </div>
+
+    <main class="content" id="content"></main>
+
+    <footer>
+        <span id="footer-text"></span>
+    </footer>
+
+</div>
+
+<script>
+    const translations = {
+
+        en: {
+            title: "Child Safety Standards",
+            subtitle:
+                "Our commitment to protecting children from sexual abuse and exploitation",
+
+            sections: [
+                {
+                    title: "Zero Tolerance for Child Sexual Abuse and Exploitation",
+                    body: `
+            <p>
+              We have zero tolerance for child sexual abuse and exploitation (CSAE).
+              Our service prohibits any content, behavior, or activity that sexually
+              exploits or endangers children.
+            </p>
+            <p>
+              We do not allow users to create, upload, share, request, distribute,
+              or promote child sexual abuse material (CSAM) or any other content
+              that sexually exploits or endangers children.
+            </p>
+          `
+                },
+
+                {
+                    title: "Prevention and Enforcement",
+                    body: `
+            <p>
+              We take reasonable measures to prevent and address child sexual abuse
+              and exploitation on our service.
+            </p>
+            <ul>
+              <li>Content and user reports may be reviewed for violations of our policies.</li>
+              <li>Accounts involved in CSAE or CSAM may be immediately suspended or terminated.</li>
+              <li>Violating content may be removed without prior notice.</li>
+              <li>We may preserve and provide relevant information to law enforcement when legally required or appropriate.</li>
+            </ul>
+          `
+                },
+
+                {
+                    title: "Reporting Child Sexual Abuse and Exploitation",
+                    body: `
+            <p>
+              If you encounter content or behavior involving child sexual abuse
+              or exploitation, please report it to us immediately.
+            </p>
+            <p>
+              When submitting a report, please provide as much relevant information
+              as possible, including the affected account, content, date, and a
+              description of the issue.
+            </p>
+          `
+                },
+
+                {
+                    title: "Contact Information",
+                    body: `
+            <div class="contact">
+              <p><strong>Email:</strong>
+                <a href="mailto:sysop@beesk.it">
+                  sysop@beesk.it
+                </a>
+              </p>
+              <p>
+                This contact address can be used to report suspected child sexual
+                abuse or exploitation and other child-safety concerns.
+              </p>
+            </div>
+          `
+                },
+
+                {
+                    title: "Cooperation with Law Enforcement",
+                    body: `
+            <p>
+              We cooperate with appropriate law enforcement authorities and
+              relevant organizations regarding suspected child sexual abuse
+              and exploitation, in accordance with applicable laws and regulations.
+            </p>
+          `
+                }
+            ],
+
+            footer: "Last updated: August 11, 2026"
+        },
+
+
+        ko: {
+            title: "아동 안전 표준",
+            subtitle:
+                "아동 성적 학대 및 착취로부터 아동을 보호하기 위한 우리의 약속",
+
+            sections: [
+                {
+                    title: "아동 성적 학대 및 착취에 대한 무관용 정책",
+                    body: `
+            <p>
+              당사는 아동 성적 학대 및 착취(CSAE)에 대해 무관용 원칙을 적용합니다.
+              당사의 서비스에서는 아동을 성적으로 착취하거나 위험에 빠뜨리는
+              모든 콘텐츠, 행동 및 활동을 금지합니다.
+            </p>
+            <p>
+              사용자는 아동 성적 학대물(CSAM) 또는 아동을 성적으로 착취하거나
+              위험에 빠뜨리는 기타 콘텐츠를 생성, 업로드, 공유, 요청, 배포하거나
+              홍보할 수 없습니다.
+            </p>
+          `
+                },
+
+                {
+                    title: "예방 및 조치",
+                    body: `
+            <p>
+              당사는 서비스에서 발생할 수 있는 아동 성적 학대 및 착취를
+              예방하고 대응하기 위해 합리적인 조치를 취합니다.
+            </p>
+            <ul>
+              <li>정책 위반이 의심되는 콘텐츠와 사용자 신고를 검토할 수 있습니다.</li>
+              <li>CSAE 또는 CSAM과 관련된 계정은 즉시 이용이 정지되거나 삭제될 수 있습니다.</li>
+              <li>위반 콘텐츠는 사전 통지 없이 삭제될 수 있습니다.</li>
+              <li>법률상 요구되거나 적절한 경우 관련 정보를 법 집행기관에 보존 및 제공할 수 있습니다.</li>
+            </ul>
+          `
+                },
+
+                {
+                    title: "아동 성적 학대 및 착취 신고",
+                    body: `
+            <p>
+              아동 성적 학대 또는 착취와 관련된 콘텐츠나 행동을 발견한 경우
+              즉시 당사에 신고해 주시기 바랍니다.
+            </p>
+            <p>
+              신고 시 관련 계정, 콘텐츠, 발생 날짜 및 문제에 대한 설명 등
+              가능한 많은 정보를 제공해 주시면 신속한 대응에 도움이 됩니다.
+            </p>
+          `
+                },
+
+                {
+                    title: "신고 및 연락처",
+                    body: `
+            <div class="contact">
+              <p><strong>이메일:</strong>
+                <a href="mailto:sysop@beesk.it">
+                  sysop@beesk.it
+                </a>
+              </p>
+              <p>
+                위 연락처를 통해 아동 성적 학대 및 착취가 의심되는 행위와
+                기타 아동 안전 관련 문제를 신고할 수 있습니다.
+              </p>
+            </div>
+          `
+                },
+
+                {
+                    title: "법 집행기관과의 협력",
+                    body: `
+            <p>
+              당사는 관련 법률 및 규정에 따라 아동 성적 학대 및 착취가
+              의심되는 사안에 대해 적절한 법 집행기관 및 관련 기관과 협력합니다.
+            </p>
+          `
+                }
+            ],
+
+            footer: "최종 업데이트: 2026년 8월 11일"
+        },
+
+
+        ja: {
+            title: "児童安全基準",
+            subtitle:
+                "児童の性的虐待および搾取から児童を守るための取り組み",
+
+            sections: [
+                {
+                    title: "児童の性的虐待および搾取に対するゼロトレランス",
+                    body: `
+            <p>
+              当社は、児童の性的虐待および搾取（CSAE）に対して
+              一切の容認を行いません。
+              本サービスでは、児童を性的に搾取または危険にさらす
+              あらゆるコンテンツ、行為、活動を禁止しています。
+            </p>
+            <p>
+              ユーザーは、児童性的虐待コンテンツ（CSAM）や、
+              児童を性的に搾取または危険にさらすその他のコンテンツを
+              作成、アップロード、共有、要求、配布、宣伝することはできません。
+            </p>
+          `
+                },
+
+                {
+                    title: "防止および対応",
+                    body: `
+            <p>
+              当社は、本サービス上で発生する可能性のある児童の性的虐待および
+              搾取を防止し、対応するために合理的な措置を講じます。
+            </p>
+            <ul>
+              <li>ポリシー違反が疑われるコンテンツやユーザーからの報告を確認する場合があります。</li>
+              <li>CSAEまたはCSAMに関与したアカウントは、直ちに停止または削除される場合があります。</li>
+              <li>違反コンテンツは事前の通知なく削除される場合があります。</li>
+              <li>法律上必要な場合、または適切と判断される場合、関連情報を法執行機関に提供することがあります。</li>
+            </ul>
+          `
+                },
+
+                {
+                    title: "児童の性的虐待および搾取の報告",
+                    body: `
+            <p>
+              児童の性的虐待または搾取に関係するコンテンツや行為を
+              発見した場合は、直ちに当社へ報告してください。
+            </p>
+            <p>
+              報告の際には、対象となるアカウント、コンテンツ、発生日、
+              問題の内容など、可能な限り詳しい情報をご提供ください。
+            </p>
+          `
+                },
+
+                {
+                    title: "連絡先",
+                    body: `
+            <div class="contact">
+              <p><strong>メール:</strong>
+                <a href="mailto:sysop@beesk.it">
+                  sysop@beesk.it
+                </a>
+              </p>
+              <p>
+                この連絡先から、児童の性的虐待および搾取が疑われる行為や
+                その他の児童安全に関する問題を報告できます。
+              </p>
+            </div>
+          `
+                },
+
+                {
+                    title: "法執行機関との協力",
+                    body: `
+            <p>
+              当社は、適用される法律および規制に従い、
+              児童の性的虐待および搾取が疑われる事案について、
+              適切な法執行機関および関連機関に協力します。
+            </p>
+          `
+                }
+            ],
+
+            footer: "最終更新日: 2026年8月11日"
+        },
+
+
+        "zh-CN": {
+            title: "儿童安全标准",
+            subtitle:
+                "我们致力于保护儿童免受性虐待和性剥削",
+
+            sections: [
+                {
+                    title: "严禁儿童性虐待和性剥削",
+                    body: `
+            <p>
+              我们对儿童性虐待和性剥削（CSAE）采取零容忍政策。
+              本服务禁止任何对儿童进行性剥削或使儿童面临危险的内容、
+              行为或活动。
+            </p>
+            <p>
+              用户不得创建、上传、分享、请求、传播或推广儿童性虐待材料（CSAM），
+              或任何其他对儿童进行性剥削或使儿童面临危险的内容。
+            </p>
+          `
+                },
+
+                {
+                    title: "预防与处理",
+                    body: `
+            <p>
+              我们将采取合理措施，预防和处理本服务中可能发生的儿童性虐待和性剥削行为。
+            </p>
+            <ul>
+              <li>我们可能会审查涉嫌违反政策的内容以及用户举报。</li>
+              <li>涉及 CSAE 或 CSAM 的账户可能会被立即暂停或终止。</li>
+              <li>违规内容可能会在不事先通知的情况下被删除。</li>
+              <li>在法律要求或适当情况下，我们可能保存并向执法机构提供相关信息。</li>
+            </ul>
+          `
+                },
+
+                {
+                    title: "举报儿童性虐待和性剥削",
+                    body: `
+            <p>
+              如果您发现涉及儿童性虐待或性剥削的内容或行为，
+              请立即向我们举报。
+            </p>
+            <p>
+              举报时，请尽可能提供相关账户、内容、发生日期以及问题描述等信息，
+              以便我们及时处理。
+            </p>
+          `
+                },
+
+                {
+                    title: "联系方式",
+                    body: `
+            <div class="contact">
+              <p><strong>电子邮件：</strong>
+                <a href="mailto:sysop@beesk.it">
+                  sysop@beesk.it
+                </a>
+              </p>
+              <p>
+                您可以通过此联系方式举报涉嫌儿童性虐待或性剥削的行为，
+                以及其他儿童安全相关问题。
+              </p>
+            </div>
+          `
+                },
+
+                {
+                    title: "与执法机构合作",
+                    body: `
+            <p>
+              根据适用的法律法规，我们将就涉嫌儿童性虐待和性剥削的事件，
+              与适当的执法机构及相关组织进行合作。
+            </p>
+          `
+                }
+            ],
+
+            footer: "最后更新：2026年8月11日"
+        },
+
+
+        "zh-TW": {
+            title: "兒童安全標準",
+            subtitle:
+                "我們致力於保護兒童免受性虐待與性剝削",
+
+            sections: [
+                {
+                    title: "嚴禁兒童性虐待與性剝削",
+                    body: `
+            <p>
+              我們對兒童性虐待與性剝削（CSAE）採取零容忍政策。
+              本服務禁止任何對兒童進行性剝削或使兒童面臨危險的內容、
+              行為或活動。
+            </p>
+            <p>
+              使用者不得建立、上傳、分享、要求、散播或推廣兒童性虐待材料（CSAM），
+              或任何其他對兒童進行性剝削或使兒童面臨危險的內容。
+            </p>
+          `
+                },
+
+                {
+                    title: "預防與處理",
+                    body: `
+            <p>
+              我們將採取合理措施，預防及處理本服務中可能發生的兒童性虐待與性剝削行為。
+            </p>
+            <ul>
+              <li>我們可能會審查涉嫌違反政策的內容以及使用者舉報。</li>
+              <li>涉及 CSAE 或 CSAM 的帳戶可能會被立即暫停或終止。</li>
+              <li>違規內容可能會在不事先通知的情況下被移除。</li>
+              <li>在法律要求或適當情況下，我們可能保存並向執法機關提供相關資訊。</li>
+            </ul>
+          `
+                },
+
+                {
+                    title: "舉報兒童性虐待與性剝削",
+                    body: `
+            <p>
+              如果您發現涉及兒童性虐待或性剝削的內容或行為，
+              請立即向我們舉報。
+            </p>
+            <p>
+              舉報時，請盡可能提供相關帳戶、內容、發生日期以及問題描述等資訊，
+              以便我們及時處理。
+            </p>
+          `
+                },
+
+                {
+                    title: "聯絡方式",
+                    body: `
+            <div class="contact">
+              <p><strong>電子郵件：</strong>
+                <a href="mailto:sysop@beesk.it">
+                  sysop@beesk.it
+                </a>
+              </p>
+              <p>
+                您可以透過此聯絡方式舉報涉嫌兒童性虐待或性剝削的行為，
+                以及其他兒童安全相關問題。
+              </p>
+            </div>
+          `
+                },
+
+                {
+                    title: "與執法機關合作",
+                    body: `
+            <p>
+              我們將依據適用的法律與法規，就涉嫌兒童性虐待與性剝削的事件，
+              與適當的執法機關及相關組織合作。
+            </p>
+          `
+                }
+            ],
+
+            footer: "最後更新：2026年8月11日"
+        }
+
+    };
+
+
+    function setLanguage(language) {
+        const data = translations[language];
+
+        document.documentElement.lang = language;
+        document.getElementById("page-title").textContent = data.title;
+        document.getElementById("page-subtitle").textContent = data.subtitle;
+        document.getElementById("footer-text").textContent = data.footer;
+
+        document.getElementById("content").innerHTML =
+            data.sections.map(section => `
+        <section>
+          <h2>${section.title}</h2>
+          ${section.body}
+        </section>
+      `).join("");
+
+        document.querySelectorAll(".language-button").forEach(button => {
+            button.classList.remove("active");
+        });
+
+        const activeButton = [...document.querySelectorAll(".language-button")]
+            .find(button => {
+                const labels = {
+                    en: "English",
+                    ko: "한국어",
+                    ja: "日本語",
+                    "zh-CN": "简体中文",
+                    "zh-TW": "繁體中文"
+                };
+                return button.textContent === labels[language];
+            });
+
+        if (activeButton) {
+            activeButton.classList.add("active");
+        }
+    }
+
+    // Default language
+    setLanguage("en");
+</script>
+
+</body>
+</html>
+
