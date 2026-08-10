@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Hangout 客户支持">
+<title>Hangout 客户支持</title>
+<style>
+:root{color-scheme:light dark;--bg:#f7f7f8;--card:#fff;--text:#18181b;--muted:#666;--line:#e5e5e7;--accent:#111}
+@media(prefers-color-scheme:dark){:root{--bg:#101012;--card:#1a1a1d;--text:#f4f4f5;--muted:#a1a1aa;--line:#2d2d32;--accent:#fff}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.65}
+main{max-width:720px;margin:0 auto;padding:56px 22px 72px}.brand{font-size:14px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+h1{font-size:38px;line-height:1.15;margin:0 0 10px} .tagline{font-size:18px;color:var(--muted);margin:0 0 42px}
+section{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px 26px;margin:16px 0}
+h2{font-size:20px;margin:0 0 10px}p{margin:8px 0}.email{font-weight:700;font-size:17px}.email a,.links a{color:inherit}
+ul{margin:12px 0 0;padding-left:22px}.links{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}.links a{border:1px solid var(--line);border-radius:10px;padding:8px 12px;text-decoration:none}
+select{background:var(--card);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:14px}
+.language{display:flex;justify-content:flex-end;margin-bottom:20px}
+footer{text-align:center;color:var(--muted);font-size:13px;margin-top:28px}
+</style>
+</head>
+<body>
+<main>
+  <div class="language">
+    <label>
+      <span class="sr-only">语言</span>
+      <select onchange="if(this.value) location.href=this.value">
+        <option value="en-US_Support.html" >en-US</option><option value="ko-KR_Support.html" >ko-KR</option><option value="ja-JP_Support.html" >ja-JP</option><option value="zh-CN_Support.html" selected>zh-CN</option><option value="zh-TW_Support.html" >zh-TW</option>
+      </select>
+    </label>
+  </div>
+
+  <div class="brand">Hangout</div>
+  <h1>Hangout 客户支持</h1>
+  <p class="tagline">认识新朋友，结交朋友，与他人建立联系。</p>
+
+  <section>
+    <h2>需要帮助吗？</h2>
+    <p>如果您有任何问题、遇到使用问题或需要报告错误，请通过电子邮件联系我们。</p>
+  </section>
+
+  <section>
+    <h2>联系我们</h2>
+    <p>客户支持邮箱：</p>
+    <p class="email"><a href="mailto:sysop@beesk.it">sysop@beesk.it</a></p>
+    <p>联系我们时，请尽可能提供以下信息：</p>
+    <ul><li>设备型号</li><li>操作系统及版本</li><li>Hangout 应用版本</li><li>问题的详细描述</li><li>如有可能，请附上截图</li></ul>
+  </section>
+
+  <section>
+    <h2>举报或屏蔽用户</h2>
+    <p>您可以直接在 Hangout 应用中举报或屏蔽用户。如果遇到不当行为、骚扰、垃圾信息或其他违规行为，请使用应用内的举报功能。</p>
+  </section>
+
+  <section>
+    <h2>删除账户</h2>
+    <p>如需请求删除 Hangout 账户及相关数据，请点击左上角的个人资料照片，然后点击右上角的设置。打开 FAQ，并选择“请求删除账户”。</p>
+  </section>
+
+  <section>
+    <h2>法律信息</h2>
+    <div class="links">
+      <a href="https://lifex-hangout.github.io/static/zh-CN_Privacy_Policy.md">隐私政策</a>
+      <a href="https://lifex-hangout.github.io/static/zh-CN_Terms_of_Service.md">服务条款</a>
+      <a href="https://lifex-hangout.github.io/static/zh-CN_FAQ.md">常见问题</a>
+    </div>
+  </section>
+
+  <footer>Hangout · Support</footer>
+</main>
+</body>
+</html>
