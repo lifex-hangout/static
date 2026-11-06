@@ -222,7 +222,7 @@ The Company's trade name, address, and other contact information are as follows:
 
 - Trade Name: Beesknees
 - Address: 20-9, Nambusunhwan-ro 240-gil, Gwanak-gu, Seoul, Republic of Korea
-- Email Address: roland.blain@gmail.com
+- Email Address: sysop@beesk.it
 
 **<Supplementary Provision>**
 
@@ -235,5 +235,4 @@ These terms and conditions shall be effective and applicable from June 8, 2023, 
 The Company has designated a location information manager to make efforts to protect the rights of personal location information subjects, including handling complaints arising from the process of using the service.
 
 - Name: Yoon-Seop Choe
-- Position: Representative
-- Contact: roland.blain@gmail.com
+- Contact: sysop@beesk.it

@@ -179,8 +179,7 @@ Beesknees(이하 “회사”)는 「개인정보보호법」, 「정보통신�
 **개인정보 보호책임자**
 
 - 성명 : Yoon-Seop Choe
-- 직책 : Representative
-- 연락처 : roland.blain@gmail.com
+- 연락처 : sysop@beesk.it
 
 기타 개인정보침해에 대한 신고나 상담이 필요하신 경우에는 아래의 기관에 문의하시기 바랍니다.
 
@@ -246,8 +245,7 @@ Beesknees(이하 “회사”)는 「개인정보보호법」, 「정보통신�
 
 - **위치정보 관리책임자**
     - 성명 : Yoon-Seop Choe
-    - 직책 : Representative
-    - 연락처 : roland.blain@gmail.com
+    - 연락처 : sysop@beesk.it
 
 ### 제12조 (고지의무)
 

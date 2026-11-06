@@ -71,4 +71,4 @@
 ## 🎸 その他
 
 - 問い合わせメールを知りたいです
-    - roland.blain@gmail.com
+    - sysop@beesk.it

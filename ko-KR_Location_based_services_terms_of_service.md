@@ -222,7 +222,7 @@
 
 - 상호: Beesknees
 - 주소: 20-9, Nambusunhwan-ro 240-gil, Gwanak-gu, Seoul, Republic of Korea
-- 이메일 주소: roland.blain@gmail.com
+- 이메일 주소: sysop@beesk.it
 
 **<부칙>**
 
@@ -235,5 +235,4 @@
 회사는 다음과 같이 위치정보관리 책임자를 지정하여 이용자들이 서비스 이용과정에서 발생한 민원사항 처리를 포함하여 개인위치정보주체의 권리 보호를 위해 힘쓰고 있습니다.
 
 - 성명 : Yoon-Seop Choe
-- 직책 : Representative
-- 연락처 : roland.blain@gmail.com
+- 연락처 : sysop@beesk.it

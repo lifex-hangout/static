@@ -180,8 +180,7 @@ Beesknees（以下、"会社"）は、「個人情報保護法」、「情報通
 **個人情報保護責任者**
 
 - 氏名：Yoon-Seop Choe
-- 役職：CTO
-- 連絡先：roland.blain@gmail.com
+- 連絡先：sysop@beesk.it
 
 ### 第11条（個人の位置情報の処理方針）
 
@@ -241,8 +240,7 @@ Beesknees（以下、"会社"）は、「個人情報保護法」、「情報通
 
 - **位置情報管理責任者**
     - 氏名：Yoon-Seop Choe
-    - 職位：CTO
-    - 連絡先：roland.blain@gmail.com
+    - 連絡先：sysop@beesk.it
 
 ### 第12条（通知義務）
 

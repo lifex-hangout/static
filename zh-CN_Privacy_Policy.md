@@ -181,8 +181,7 @@ d. 根据《商业法》和《电子商务中消费者保护法》等相关法�
 **个人信息保护负责人：**
 
 - 姓名：Yoon-Seop Choe
-- 职务：CTO
-- 联系方式：roland.blain@gmail.com
+- 联系方式：sysop@beesk.it
 
 ### 第11条（个人位置信息的隐私政策）
 
@@ -238,8 +237,7 @@ c. 依照《残疾人福利法》第2条第2项第2号所定义的精神障碍�
 
 - **位置信息管理者**
     - 姓名：Yoon-Seop Choe
-    - 职位：CTO
-    - 联系方式：roland.blain@gmail.com
+    - 联系方式：sysop@beesk.it
 
 ### 第12条（通知义务）
 

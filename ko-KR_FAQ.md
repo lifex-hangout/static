@@ -71,4 +71,4 @@
 ## 🎸 기타
 
 - 문의 메일을 알고 싶어요
-  - <roland.blain@gmail.com>
+  - <sysop@beesk.it>

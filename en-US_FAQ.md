@@ -67,4 +67,4 @@
 ## 🎸 Other
 
 - I want to know the contact email.
-    - roland.blain@gmail.com
+    - sysop@beesk.it

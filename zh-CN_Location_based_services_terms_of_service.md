@@ -221,7 +221,7 @@
 
 - 贸易名称：Beesknees
 - 地址：新加坡048547，罗宾逊路18号，16-01
-- 电子邮件地址：roland.blain@gmail.com
+- 电子邮件地址：sysop@beesk.it
 
 **<附则>**
 
@@ -234,5 +234,4 @@
 公司已指定一名位置信息管理员，努力保护个人位置信息主体的权利，包括处理使用服务过程中产生的投诉。
 
 - 姓名：Yoon-Seop Choe
-- 职位：首席技术官
-- 联系方式：roland.blain@gmail.com
+- 联系方式：sysop@beesk.it

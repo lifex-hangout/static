@@ -179,8 +179,7 @@ The company designates a personal information protection manager responsible for
 **Personal Information Protection Manager:**
 
 - Name: Yoon-Seop Choe
-- Position: Representative
-- Contact: roland.blain@gmail.com
+- Contact: sysop@beesk.it
 
 ### Article 11 (Privacy Policy for Personal Location Information)
 
@@ -240,8 +239,7 @@ Users can report all grievances related to the protection of personal location i
 
 - **Location Information Manager**
     - Name: Yoon-Seop Choe
-    - Position: Representative
-    - Contact: roland.blain@gmail.com
+    - Contact: sysop@beesk.it
 
 ### Article 12 (Obligation to Notify)
 

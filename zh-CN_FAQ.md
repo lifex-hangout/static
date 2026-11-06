@@ -70,4 +70,4 @@
 ## 🎸 其他
 
 - 我想知道联系邮箱。
-  - roland.blain@gmail.com
+  - sysop@beesk.it
